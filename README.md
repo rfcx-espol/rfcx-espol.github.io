@@ -10,4 +10,4 @@ This is the architecture
 
 [RFCX ESPOL Block](rfcx-espol-block.md)
 
-[RFCX ESPOL Block](bosque-protector-block.md)
+[Bosque Protector Block](bosque-protector-block.md)
