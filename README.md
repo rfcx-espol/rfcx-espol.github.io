@@ -1,5 +1,3 @@
-# RFCX ESPOL
-
 ## Introduction
 RFCX Espol is based on the work of [Rainforest Connection](https://rfcx.org/) which purpose is to provide acoustic monitoring systems for those who wish to end illegal deforestation in real-time. Our main contibution is to enhance the experience of accessing this real-time acoustic data, and looking forward to expand the range of metrics that can be transmitted through the monitoring system.
 
