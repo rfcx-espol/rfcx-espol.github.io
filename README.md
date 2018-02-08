@@ -10,10 +10,15 @@ Behind our efforts are:
  
 ## Description
 The system is composed by the following modules:
- - [RFCX devices](rfcx-devices.md)
- - [Web server](rfcx-espol-web-server.md)
- - [Stream server](rfcx-espol-stream-server.md)
- - [Unity WebGL application](rfcx-espol-visualizer.md)
+ - [RFCX devices](rfcx-devices.md), the same used by [Rainforest Connection](https://rfcx.org/)
+ - [Web server](rfcx-espol-web-server.md), is responsible to receive, pre-process and serve data of available devices.
+ - [Stream server](rfcx-espol-stream-server.md), streams audio data from Web Server to Unity WebGL Visualizer.
+ - [Unity WebGL Visualizer](rfcx-espol-visualizer.md), a 3D interactive representation of the forest.
+ 
+ And it is developed with the following users in mind:
+ - Children who can navigate the forest and feel the real-time status of it.
+ - Biologists and scientists who want to download raw data for further analysis.
+ - Everybody who wants to monitor the forest.
 
 ## Architecture
 The following image describes the relations and communication paths between the system's modules and users.
