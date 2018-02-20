@@ -7,6 +7,15 @@ Web Server for saving audio files from [RFCX devices](rfcx-devices.md) and make 
 - Convert decompressed audio files to ogg format for [streaming](rfcx-espol-stream-server.md).
 - Let users download saved audio files between desired dates.
 
+## Repository Organization
+* rfcx-espol-server
+** RfcxServer
+*** Icecast
+*** WebApplication
+*** config.sh
+*** deploy.sh
+*** deps.sh
+
 ## Development
 This server is developed using multiplatform tools, which allow development and deployment for Windows, Linux and Mac OS. 
 
@@ -28,3 +37,5 @@ The Web and Stream servers are deployed at same time using the following steps:
 - Run deploy.sh
 
 This will install necessary software and set an automatic restart linux service.
+
+### Deployed Folder Organization
