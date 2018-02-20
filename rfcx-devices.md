@@ -19,6 +19,12 @@ This uses [Rain Forest technologies](https://rfcx.org/) to record the audio file
 
 These part of the devices proyect have the objective to contain all the new functionalities added by ESPOL's people.
 
+### Guide for instalation
+
+1. Clone the [repository](https://github.com/rfcx-espol/bosqueProtectorServicios)
+2. Install the application using android studio.
+
+
 ### Module SendingAudio
 
 These module is to send the audios that are in the phone to the server located in ESPOL. For this we used a service named SendingAudioService that use OkHTTP library to communicate with the server. Also there is a broadcast receiver that initialize the service at boot.
