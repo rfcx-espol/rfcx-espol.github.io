@@ -10,7 +10,7 @@ This uses [Rain Forest technologies](https://rfcx.org/) to record the audio file
 ### Guide for instalation
 
 1. Clone the [forked repository](https://github.com/rfcx-espol/rfcx-guardian-android)
-2. Install the four aplications: guardian, updater, setup and admin using gradle (gradle 2.2) or building them with android studio
+2. Install the four aplications: guardian, updater, setup and admin (that corresponds to all folders with the world "role" in the repo) using gradle (gradle 2.2) or building them with android studio. 
 3. Ensure to have fb2png executable in android device in the route /data/data/org.rfcx.guardian.admin/files/screenshot/bin/ , if not download from [android fb2png repository](https://github.com/cybertk/android-fb2png) and follow the instructions
 4. Even C and C++ executables are in the repository, if you have some issue, build them with ndk, for that install ndk , and run ndk-build in the folder rfcx-guardian-lib-audio\jni 
 
@@ -49,4 +49,4 @@ Switch to desactivate or activate the service
 Switch to delete the audios , if they are send correctly to the server
 
 
-If you have some issue , let us know it.
+If you have some issue , let us know it. These was tested in an samsung s3 mini GT-i8190N with android 4.1.2
