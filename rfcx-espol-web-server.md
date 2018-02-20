@@ -1,5 +1,5 @@
 # RFCX ESPOL Web Server
-Web Server for saving audio files from [RFCX devices](rfcx-devices.md) and make them ready for streaming and offline analysis.
+Web Server for saving audio files from [RFCX devices](rfcx-devices.md) and make them ready for streaming and offline analysis. It has a MVC design.
 
 ## Responsibilities
 - Receive compressed audio files as gzip files from [RFCX devices](rfcx-devices.md).
@@ -12,9 +12,9 @@ This server is developed using multiplatform tools, which allow development and 
 
 ### Used Technologies
 - [.Net Core 2.0.0](https://dotnet.github.io/), multiplatform core for .Net development.
-- [ASP.Net core](https://docs.microsoft.com/en-us/aspnet/core/), for its reduced API compared with ASP.Net and better open source technologies integration.
+- [ASP.Net core](https://docs.microsoft.com/en-us/aspnet/core/), for its reduced API compared with ASP.Net and better open source technologies integration. We use the MVC web application development facilities.
 - [Visual Studio Code](https://code.visualstudio.com/), modern editor with valuable multiplatform debugging capabilities.
-- [Microsoft.Orleans](https://dotnet.github.io/orleans/), is a Virtual Actor Model Framework for distributed systems. We have not used this yet, but we look at it for future due to the increasing popularity of Actor Model to develop IoT distributed systems.
+- [Microsoft.Orleans](https://dotnet.github.io/orleans/), is a Virtual Actor Model Framework for distributed systems. We have not used this yet, but we look at it for future due to the increasing popularity of Actor Model to develop IoT and distributed systems.
 - [FFmpeg](https://www.ffmpeg.org/), used to convert saved audio files to desired format.
 
 ## Deployment
