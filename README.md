@@ -32,3 +32,4 @@ Devices send its recorded audio files as gzip compressed files to Web Server, th
     - Rename devices.
 - Geo-localization of devices.
 - 3D models of the real forest for Visualizer.
+- Files Management for space utilization in Server.
