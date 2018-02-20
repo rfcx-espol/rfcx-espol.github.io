@@ -24,3 +24,11 @@ The following image describes the relations and communication paths between the 
 ![architecture](/img/RFCX-ESPOL%20Architecture.jpg "Architecture")
 
 Devices send its recorded audio files as gzip compressed files to Web Server, the server save and process those files for streaming to WebGL Visualizer or to serve them to clients for offline analysis.
+
+## Future Work
+- Change from http to https.
+- Device management.
+    - Secure device logging.
+    - Rename devices.
+- Geo-localization of devices.
+- 3D models of the real forest for Visualizer.
