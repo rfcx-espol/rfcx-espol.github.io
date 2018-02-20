@@ -10,7 +10,7 @@ Stream Server used to listen audio captured by [RFCX devices](rfcx-devices.md)
 This server is developed using open source streaming tools and linux shell scripts to mantain the streaming playlists
 
 ### Used Technologies 
-- [Icecast](icecast.org) as an http stream server. 
+- [Icecast](https://icecast.org) as an http stream server. 
 - [Ices](http://icecast.org/ices/), multiple instances as stream sources, feedeng the stream server through different channels.
 
 ## Deployment
