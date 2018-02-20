@@ -8,8 +8,8 @@ Web Server for saving audio files from [RFCX devices](rfcx-devices.md) and make 
 - Let users download saved audio files between desired dates.
 
 ## Repository Organization
-* rfcx-espol-server
-** RfcxServer
+* [rfcx-espol-server](https://github.com/rfcx-espol/rfcx-espol-server)
+** RfcxServer, csproj
 *** Icecast
 *** WebApplication
 *** config.sh
@@ -39,3 +39,8 @@ The Web and Stream servers are deployed at same time using the following steps:
 This will install necessary software and set an automatic restart linux service.
 
 ### Deployed Folder Organization
+Server is deployed to /var/rfcx-espol-server by default and the folder organization is:
+* /var/rfcx-espol-server
+** files
+*** device0 device1 ... devicen
+** build files
