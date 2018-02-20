@@ -26,19 +26,19 @@ These module is to send the audios that are in the phone to the server located i
 Also there is an app which function is to modify some feautures of the service
 
 
-*NumberOfIntents
+* NumberOfIntents
 
 number of intents in which each audio is try to upload to the server
 
-*SendingAudioTime
+* SendingAudioTime
 
 Time between the service is "restarted"
 
-*IsOnService
+* IsOnService
 
 Switch to desactivate or activate the service
 
-*OnDestroyAudio
+* OnDestroyAudio
 
 Switch to delete the audios , if they are send correctly to the server
 
